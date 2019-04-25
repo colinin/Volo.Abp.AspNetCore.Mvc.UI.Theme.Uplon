@@ -1,4 +1,4 @@
-````C#
+```C#
 // the webmodule
 [DependsOn(
         typeof(DemoApplicationModule),
@@ -12,7 +12,7 @@
  }
 ```
 
-````C#
+```C#
 // the cshtml
 
 @page
@@ -39,5 +39,4 @@
 @{
     ViewBag.FluidLayout = true;
 }
-
 ```
